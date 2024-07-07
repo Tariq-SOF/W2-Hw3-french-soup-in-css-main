@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+.Title-in-image{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 480px;
+    left: 200px;
+    
+}
+.background-picture{
+
+width:100%;
+object-fit:contain;
+border-width:5px;
+border-style: solid;
+border-color: #1E2F3C;
+position: relative;
+
+
+}
+.picture-plate{
+    width: 400px;
+    position:relative;
+    left: 500px;
+    bottom:200px;
+    display: inline-block;
+    overflow:hidden;
+}
+.picture-plate{
+    transform:transform 0.8s ease;
+}
+.picture-plate:hover{
+    transform:rotate(180deg);
+}
+.Soup-title{
+    margin-left: 300px;
+    width: 58%;
+    text-align:left;
+    font-size:20px;
+    color: #504F4F;
+   
+}
+
+
+.recipe1{
+    width: 20%;
+    object-position:center;
+    position: relative;
+    top:12px;
+    left: 35%;
+
+}
+.dividing-line{
+    width: 58%;
+    margin-top: 58px;
+}
+.button-ingredients,.button-Directions{
+    font-size: 24px;
+    margin-left: 21%;
+    margin-top: 5%;
+    border-style:none;
+    width: 150px;
+    height:40px ;
+    border-radius:50%;
+    color: #504F4F;
+    background-color: #FFE4C4;
+   
+}
+.step-ingredients{
+    width: 700px;
+    margin-left: 245px;
+    font-size: 24px;
+    color: #504F4F;
+}
+.step-Directions{
+    width: 700px;
+    margin-left: 300px;
+    font-size: 24px;
+    text-align:justify;
+    color: #504F4F;
+}
